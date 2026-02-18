@@ -26,12 +26,24 @@
 // greet();
 
 
-var x = 10;
+// var x = 10;
+// function outer(){
+//     var x = 20;
+//     function inner(){
+//         console.log(x);
+//     }
+//     inner();
+// }
+// outer();
+
+
+
 function outer(){
-    var x = 20;
-    function inner(){
+    let x  =10;
+    return function inner(){
+        let x = 20;
         console.log(x);
     }
-    inner();
 }
-outer();
+let fn = outer();
+fn();
