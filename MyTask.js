@@ -90,14 +90,25 @@
 //     console.log("D");
 // },0);
 
-console.log("A");
 
+
+// console.log("A");
+// setTimeout(() => {
+//     console.log("B");
+// }, 1000);
+
+// console.log("C");
+
+// setTimeout(() => {
+//     console.log("D");
+// }, 0);
+
+
+console.log("Start");
+setTimeout(() => {
+    console.log("A");
+},2000);
 setTimeout(() => {
     console.log("B");
-}, 1000);
-
-console.log("C");
-
-setTimeout(() => {
-    console.log("D");
-}, 0);
+},0);
+console.log("End");
