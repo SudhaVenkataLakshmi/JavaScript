@@ -71,9 +71,33 @@
 
 
 
-console.log("Start");
-setTimeout(function(){
-    console.log("Inside Timeout");
-},0);
-console.log("End");
+// console.log("Start");
+// setTimeout(function(){
+//     console.log("Inside Timeout");
+// },0);
+// console.log("End");
 
+
+// console.log("A");
+
+// setTimeout(() => {
+//     console.log("B");
+// },1000);
+
+// console,log("C");
+
+// setTimeout(() => {
+//     console.log("D");
+// },0);
+
+console.log("A");
+
+setTimeout(() => {
+    console.log("B");
+}, 1000);
+
+console.log("C");
+
+setTimeout(() => {
+    console.log("D");
+}, 0);
