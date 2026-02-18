@@ -59,14 +59,21 @@
 // processUser(greet);
 
 
-function first(){
-    console.log("First");
-}
-function second(callback){
-    console.log("Second");
-    callback();
-}
+// function first(){
+//     console.log("First");
+// }
+// function second(callback){
+//     console.log("Second");
+//     callback();
+// }
 
-second(first);
+// second(first);
 
+
+
+console.log("Start");
+setTimeout(function(){
+    console.log("Inside Timeout");
+},0);
+console.log("End");
 
