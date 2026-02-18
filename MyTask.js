@@ -49,11 +49,24 @@
 // fn();
 
 
-function greet(name){
-    console.log("Hello "+name);
+// function greet(name){
+//     console.log("Hello "+name);
+// }
+// function processUser(callback){
+//     let name = "Sushma";
+//     callback(name);
+// }
+// processUser(greet);
+
+
+function first(){
+    console.log("First");
 }
-function processUser(callback){
-    let name = "Sushma";
-    callback(name);
+function second(callback){
+    console.log("Second");
+    callback();
 }
-processUser(greet);
+
+second(first);
+
+
