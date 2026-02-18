@@ -104,11 +104,20 @@
 // }, 0);
 
 
-console.log("Start");
+// console.log("Start");
+// setTimeout(() => {
+//     console.log("A");
+// },2000);
+// setTimeout(() => {
+//     console.log("B");
+// },0);
+// console.log("End");
+
+console.log("1");
 setTimeout(() => {
-    console.log("A");
-},2000);
-setTimeout(() => {
-    console.log("B");
+    console.log("2");
 },0);
-console.log("End");
+setTimeout(() => {
+    console.log("3");
+},0);
+console.log("4");
