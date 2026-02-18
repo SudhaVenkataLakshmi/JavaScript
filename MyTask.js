@@ -38,12 +38,22 @@
 
 
 
-function outer(){
-    let x  =10;
-    return function inner(){
-        let x = 20;
-        console.log(x);
-    }
+// function outer(){
+//     let x  =10;
+//     return function inner(){
+//         let x = 20;
+//         console.log(x);
+//     }
+// }
+// let fn = outer();
+// fn();
+
+
+function greet(name){
+    console.log("Hello" +name);
 }
-let fn = outer();
-fn();
+function processUser(callback){
+    let name = "Sushma";
+    callback(name);
+}
+processUser(greet);
