@@ -37,25 +37,25 @@
 // console.log("C");
 
 
-// let myPromise = new Promise(function(resolve, reject){
-//     resolve("Success!");
-// });
-// myPromise.then(function(result){
-//     console.log(result);
-// });
-
-
-
 let myPromise = new Promise(function(resolve, reject){
-    reject("Something went Wrong!!");
+    resolve("Successful!!");
 });
-myPromise
-.then(function(result){
+myPromise.then(function(result){
     console.log(result);
-})
-.catch(function(error){
-    console.log(error);
 });
+
+
+
+// let myPromise = new Promise(function(resolve, reject){
+//     reject("Something went Wrong!!");
+// });
+// myPromise
+// .then(function(result){
+//     console.log(result);
+// })
+// .catch(function(error){
+//     console.log(error);
+// });
 
 
 // console.log("Start");
