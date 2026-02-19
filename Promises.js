@@ -46,13 +46,20 @@
 
 
 
-let myPromise = new Promise(function(resolve, reject){
-    reject("Something went Wrong!");
+// let myPromise = new Promise(function(resolve, reject){
+//     reject("Something went Wrong!");
+// });
+// myPromise
+// .then(function(result){
+//     console.log(result);
+// })
+// .catch(function(error){
+//     console.log(error);
+// });
+
+
+console.log("Start");
+Promise.resolve().then(function(){
+    console.log("Promise");
 });
-myPromise
-.then(function(result){
-    console.log(result);
-})
-.catch(function(error){
-    console.log(error);
-});
+console.log("End");
