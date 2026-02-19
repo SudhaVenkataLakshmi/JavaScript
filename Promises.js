@@ -81,10 +81,10 @@ console.log("Apple");
 Promise.resolve().then(() =>{
     console.log("Banana");
     Promise.resolve().then(()=>{
-        console.log("Cat");
+        console.log("Carrot");
     });
 });
 setTimeout(()=>{
-    console.log("Dolphin");
+    console.log("Danger");
 },0);
 console.log("Elephant");
