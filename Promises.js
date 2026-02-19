@@ -37,12 +37,12 @@
 // console.log("C");
 
 
-let myPromise = new Promise(function(resolve, reject){
-    resolve("Successful!!");
-});
-myPromise.then(function(result){
-    console.log(result);
-});
+// let myPromise = new Promise(function(resolve, reject){
+//     resolve("Successful!!");
+// });
+// myPromise.then(function(result){
+//     console.log(result);
+// });
 
 
 
@@ -74,3 +74,17 @@ myPromise.then(function(result){
 //     console.log("Promise");
 // });
 // console.log("End");
+
+
+
+console.log("A");
+Promise.resolve().then(() =>{
+    console.log("B");
+    Promise.resolve().then(()=>{
+        console.log("C");
+    });
+});
+setTimeout(()=>{
+    console.log("D");
+},0);
+console.log("E");
