@@ -77,14 +77,14 @@
 
 
 
-console.log("A");
+console.log("Apple");
 Promise.resolve().then(() =>{
-    console.log("B");
+    console.log("Banana");
     Promise.resolve().then(()=>{
-        console.log("C");
+        console.log("Cat");
     });
 });
 setTimeout(()=>{
-    console.log("D");
+    console.log("Dolphin");
 },0);
-console.log("E");
+console.log("Elephant");
