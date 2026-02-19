@@ -46,16 +46,16 @@
 
 
 
-// let myPromise = new Promise(function(resolve, reject){
-//     reject("Something went Wrong!");
-// });
-// myPromise
-// .then(function(result){
-//     console.log(result);
-// })
-// .catch(function(error){
-//     console.log(error);
-// });
+let myPromise = new Promise(function(resolve, reject){
+    reject("Something went Wrong!!");
+});
+myPromise
+.then(function(result){
+    console.log(result);
+})
+.catch(function(error){
+    console.log(error);
+});
 
 
 // console.log("Start");
@@ -66,11 +66,11 @@
 
 
 
-console.log("Start");
-setTimeout(()=>{
-    console.log("TimeOut");
-},0);
-Promise.resolve().then(() =>{
-    console.log("Promise");
-});
-console.log("End");
+// console.log("Start");
+// setTimeout(()=>{
+//     console.log("TimeOut");
+// },0);
+// Promise.resolve().then(() =>{
+//     console.log("Promise");
+// });
+// console.log("End");
