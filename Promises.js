@@ -85,6 +85,6 @@ Promise.resolve().then(() =>{
     });
 });
 setTimeout(()=>{
-    console.log("Danger");
+    console.log("Deserve");
 },0);
-console.log("Elephant");
+console.log("Euphoria");
