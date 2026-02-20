@@ -81,7 +81,7 @@ console.log("Apple");
 Promise.resolve().then(() =>{
     console.log("Banglore");
     Promise.resolve().then(()=>{
-        console.log("Carrot");
+        console.log("California");
     });
 });
 setTimeout(()=>{
