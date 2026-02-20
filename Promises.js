@@ -79,7 +79,7 @@
 
 console.log("Apple");
 Promise.resolve().then(() =>{
-    console.log("Banana");
+    console.log("Banglore");
     Promise.resolve().then(()=>{
         console.log("Carrot");
     });
