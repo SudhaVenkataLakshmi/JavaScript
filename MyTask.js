@@ -104,20 +104,20 @@
 // }, 0);
 
 
-// console.log("Start");
-// setTimeout(() => {
-//     console.log("A");
-// },2000);
-// setTimeout(() => {
-//     console.log("B");
-// },0);
-// console.log("End");
+console.log("Start");
+setTimeout(() => {
+    console.log("A");
+},2000);
+setTimeout(() => {
+    console.log("B");
+},0);
+console.log("End");
 
-console.log("1");
-setTimeout(() => {
-    console.log("2");
-},0);
-setTimeout(() => {
-    console.log("3");
-},0);
-console.log("4");
+// console.log("1");
+// setTimeout(() => {
+//     console.log("2");
+// },0);
+// setTimeout(() => {
+//     console.log("3");
+// },0);
+// console.log("4");
