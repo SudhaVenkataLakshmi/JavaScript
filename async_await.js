@@ -28,10 +28,60 @@
 // console.log("End");
 
 
-fetchData()
-.then(result => {
-    console.log("result");
-})
-.catch(error => {
-    console.log(error);
-});
+// fetchData()
+// .then(result => {
+//     console.log("result");
+// })
+// .catch(error => {
+//     console.log(error);
+// });
+
+
+
+// function fetchData(){
+//     return new Promise((resolve, reject) => {
+//         let success = false;
+//         if(success){
+//             resolve("Data received");
+//         }
+//         else{
+//             reject("Something went Wrong");
+//         }
+//     });
+// }
+// async function  getData() {
+//     try{
+//         let result = await fetchData();
+//         console.log(result);
+//     }catch(error){
+//         console.log("Error: ",error);
+//     }
+// }
+// getData();
+
+
+// async function test() {
+//     try{
+//         await Promise.reject("Error 1");
+//         console.log("After reject");
+//     }catch(err){
+//         console.log("Caught: ",err);
+//     }
+//     console.log("End of function");
+// }
+// test();
+
+
+async function test() {
+    try{
+        console.log("Start");
+        await Promise.reject("Fail");
+        console.log("After await");
+    }catch(err){
+        console.log("Caught: ",err);
+    }
+    console.log("End");
+}
+console.log("Outside");
+test();
+console.log("Done");
