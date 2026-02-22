@@ -76,9 +76,9 @@ async function test() {
     try{
         console.log("Start");
         await Promise.reject("Fail");
-        console.log("After await");
-    }catch(err){
-        console.log("Caught: ",err);
+        console.log("After Await");
+    }catch(error){
+        console.log("Caught: ",error);
     }
     console.log("End");
 }
