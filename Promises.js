@@ -66,25 +66,25 @@
 
 
 
-// console.log("Start");
-// setTimeout(()=>{
-//     console.log("TimeOut");
-// },0);
-// Promise.resolve().then(() =>{
-//     console.log("Promise");
-// });
-// console.log("End");
-
-
-
-console.log("Accolite");
-Promise.resolve().then(() =>{
-    console.log("Banglore");
-    Promise.resolve().then(()=>{
-        console.log("California");
-    });
-});
+console.log("Start");
 setTimeout(()=>{
-    console.log("Europe");
+    console.log("Hello");
 },0);
-console.log("Euphoria");
+Promise.resolve().then(() =>{
+    console.log("Promise");
+});
+console.log("End");
+
+
+
+// console.log("Accolite");
+// Promise.resolve().then(() =>{
+//     console.log("Banglore");
+//     Promise.resolve().then(()=>{
+//         console.log("California");
+//     });
+// });
+// setTimeout(()=>{
+//     console.log("Europe");
+// },0);
+// console.log("Euphoria");
