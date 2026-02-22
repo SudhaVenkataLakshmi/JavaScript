@@ -77,7 +77,7 @@
 
 
 
-console.log("Apple");
+console.log("Accolite");
 Promise.resolve().then(() =>{
     console.log("Banglore");
     Promise.resolve().then(()=>{
@@ -85,6 +85,6 @@ Promise.resolve().then(() =>{
     });
 });
 setTimeout(()=>{
-    console.log("Deserve");
+    console.log("Europe");
 },0);
 console.log("Euphoria");
