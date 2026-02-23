@@ -1,11 +1,11 @@
-// let promise = new Promise(function(resolve, reject){
-//     let success = true;
-//     if(success){
-//         resolve("Operation SuccessFul!");
-//     }else{
-//         reject("Operation Failure!");
-//     }
-// });
+let promise = new Promise(function(resolve, reject){
+    let success = true;
+    if(success){
+        resolve("Operation Successfully worked!");
+    }else{
+        reject("Operation Failured!");
+    }
+});
 
 // promise
 //     .then(function(result){
@@ -46,16 +46,16 @@
 
 
 
-let myPromise = new Promise(function(resolve, reject){
-    reject("Something Went Wrong!");
-});
-myPromise
-.then(function(result){
-    console.log(result);
-})
-.catch(function(error){
-    console.log(error);
-});
+// let myPromise = new Promise(function(resolve, reject){
+//     reject("Something Went Wrong!");
+// });
+// myPromise
+// .then(function(result){
+//     console.log(result);
+// })
+// .catch(function(error){
+//     console.log(error);
+// });
 
 
 // console.log("Start");
