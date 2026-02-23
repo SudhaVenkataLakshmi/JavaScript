@@ -1,11 +1,14 @@
 function outer(){
-    let count = 0;
+    let count = 5;
     function inner(){
-        count +1;
+        count --;
         console.log(count);
     }
     return inner;
 }
 let counter = outer();
+counter();
+counter();
+counter();
 counter();
 
