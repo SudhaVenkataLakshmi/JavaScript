@@ -68,12 +68,12 @@
 
 console.log("Start");
 setTimeout(()=>{
-    console.log("Hello");
+    console.log("Heyy");
 },0);
 Promise.resolve().then(() =>{
     console.log("Promise");
 });
-console.log("End");
+console.log("End of the code");
 
 
 
