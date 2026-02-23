@@ -67,7 +67,7 @@ async function test() {
     }catch(err){
         console.log("Caught: ",err);
     }
-    console.log("End of the function");
+    console.log("End");
 }
 test();
 
