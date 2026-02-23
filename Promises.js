@@ -47,7 +47,7 @@
 
 
 let myPromise = new Promise(function(resolve, reject){
-    reject("Data not Found!");
+    reject("Something Went Wrong!");
 });
 myPromise
 .then(function(result){
