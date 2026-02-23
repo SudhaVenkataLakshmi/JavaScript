@@ -65,7 +65,7 @@ async function test() {
         await Promise.reject("Error 1");
         console.log("After reject");
     }catch(err){
-        console.log("Caught: ",err);
+        console.log("Caught an Error: ",err);
     }
     console.log("End");
 }
