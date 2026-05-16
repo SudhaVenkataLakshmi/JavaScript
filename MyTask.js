@@ -78,30 +78,30 @@
 // console.log("End");
 
 
-// console.log("A");
-
-// setTimeout(() => {
-//     console.log("B");
-// },1000);
-
-// console,log("C");
-
-// setTimeout(() => {
-//     console.log("D");
-// },0);
-
-
-
 console.log("A");
+
 setTimeout(() => {
     console.log("B");
-}, 3000);
+},2000);
 
-console.log("C");
+console,log("C");
 
 setTimeout(() => {
     console.log("D");
-}, 0);
+},0);
+
+
+
+// console.log("A");
+// setTimeout(() => {
+//     console.log("B");
+// }, 3000);
+
+// console.log("C");
+
+// setTimeout(() => {
+//     console.log("D");
+// }, 0);
 
 
 // console.log("Start");
