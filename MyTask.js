@@ -95,7 +95,7 @@
 console.log("A");
 setTimeout(() => {
     console.log("B");
-}, 5000);
+}, 3000);
 
 console.log("C");
 
