@@ -1,5 +1,5 @@
 function bankAccount(){
-    let balance = 1000;
+    let balance = 3000;
     return {
         deposit:  function(amount){
             balance += amount;
