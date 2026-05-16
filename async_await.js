@@ -60,28 +60,28 @@
 // getData();
 
 
-async function test() {
-    try{
-        await Promise.reject("Error 1");
-        console.log("After reject");
-    }catch(err){
-        console.log("Caught an Error: ",err);
-    }
-    console.log("End");
-}
-test();
-
-
 // async function test() {
 //     try{
-//         console.log("Start");
-//         await Promise.reject("Fail");
-//         console.log("After Await");
-//     }catch(error){
-//         console.log("Caught: ",error);
+//         await Promise.reject("Error 1");
+//         console.log("After reject");
+//     }catch(err){
+//         console.log("Caught an Error: ",err);
 //     }
 //     console.log("End");
 // }
-// console.log("Outside");
 // test();
-// console.log("Done");
+
+
+async function test() {
+    try{
+        console.log("Start");
+        await Promise.reject("Fail");
+        console.log("After Await");
+    }catch(error){
+        console.log("Caught: ",error);
+    }
+    console.log("End");
+}
+console.log("Outside");
+test();
+console.log("Completed");
