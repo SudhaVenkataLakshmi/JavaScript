@@ -12,5 +12,5 @@ function bankAccount(){
     };
 }
 let account = bankAccount();
-account.deposit(1000);
+account.deposit(2000);
 account.withdraw(1500);
