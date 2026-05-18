@@ -9,5 +9,10 @@ function outer(){
 let counter = outer();
 counter();
 counter();
+counter();
+counter();
+counter();
+counter();
+counter();
 
 
