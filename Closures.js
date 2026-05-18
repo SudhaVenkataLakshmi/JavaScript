@@ -1,5 +1,5 @@
 function outer(){
-    let count = 5;
+    let count = 9;
     function inner(){
         count --;
         console.log(count);
