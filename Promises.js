@@ -17,16 +17,16 @@ let promise = new Promise(function(resolve, reject){
 
 
 
-// function fetchData() {
-//     return new Promise(function(resolve, reject){
-//         setTimeout(function(){
-//             resolve("Data Received");
-//         },2000);
-//     });
-// }
-// fetchData().then(function(data){
-//     console.log(data);
-// });
+function fetchData() {
+    return new Promise(function(resolve, reject){
+        setTimeout(function(){
+            resolve("Data Received");
+        },5000);
+    });
+}
+fetchData().then(function(data){
+    console.log(data);
+});
 
 
 
