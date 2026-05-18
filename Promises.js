@@ -21,7 +21,7 @@ function fetchData() {
     return new Promise(function(resolve, reject){
         setTimeout(function(){
             resolve("Data Received");
-        },5000);
+        },3000);
     });
 }
 fetchData().then(function(data){
