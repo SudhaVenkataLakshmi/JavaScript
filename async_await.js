@@ -4,28 +4,28 @@
 // test().then(result => console.log(result));
 
 
-// function fetchData(){
-//     return new Promise(resolve => {
-//         setTimeout(() => {
-//             resolve("Data Received");
-//         },2000);
-//     });
-// }
-// async function getData() {
-//     let result = await fetchData();
-//     console.log(result);
-// }
-// getData();
-
-
-console.log("Start");
-async function test() {
-    console.log("Inside");
-    await Promise.resolve();
-    console.log("After await function");
+function fetchData(){
+    return new Promise(resolve => {
+        setTimeout(() => {
+            resolve("Data Received instantly!");
+        },3000);
+    });
 }
-test();
-console.log("End");
+async function getData() {
+    let result = await fetchData();
+    console.log(result);
+}
+getData();
+
+
+// console.log("Start");
+// async function test() {
+//     console.log("Inside");
+//     await Promise.resolve();
+//     console.log("After await function");
+// }
+// test();
+// console.log("End");
 
 
 // fetchData()
