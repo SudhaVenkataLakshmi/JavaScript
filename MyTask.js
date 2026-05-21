@@ -78,16 +78,16 @@
 // console.log("End");
 
 
-console.log("A");
+console.log("Apple");
 
 setTimeout(() => {
-    console.log("B");
+    console.log("Banana");
 },2000);
 
-console,log("C");
+console,log("Carrot");
 
 setTimeout(() => {
-    console.log("D");
+    console.log("Danger");
 },0);
 
 
