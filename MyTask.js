@@ -104,20 +104,22 @@
 // }, 0);
 
 
-console.log("Start");
-setTimeout(() => {
-    console.log("Aloo");
-},3000);
-setTimeout(() => {
-    console.log("Booo");
-},0);
-console.log("End");
+// console.log("Start");
+// setTimeout(() => {
+//     console.log("Aloo");
+// },3000);
+// setTimeout(() => {
+//     console.log("Booo");
+// },0);
+// console.log("End");
 
-// console.log("1");
-// setTimeout(() => {
-//     console.log("2");
-// },0);
-// setTimeout(() => {
-//     console.log("3");
-// },0);
-// console.log("4");
+
+
+console.log("One");
+setTimeout(() => {
+    console.log("Two");
+},0);
+setTimeout(() => {
+    console.log("Three");
+},0);
+console.log("Four");
