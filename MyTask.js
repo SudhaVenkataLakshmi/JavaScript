@@ -78,30 +78,30 @@
 // console.log("End");
 
 
-console.log("Apple");
-
-setTimeout(() => {
-    console.log("Banana");
-},2000);
-
-console,log("Carrot");
-
-setTimeout(() => {
-    console.log("Danger");
-},0);
-
-
-
-// console.log("A");
-// setTimeout(() => {
-//     console.log("B");
-// }, 3000);
-
-// console.log("C");
+// console.log("Apple");
 
 // setTimeout(() => {
-//     console.log("D");
-// }, 0);
+//     console.log("Banana");
+// },2000);
+
+// console,log("Carrot");
+
+// setTimeout(() => {
+//     console.log("Danger");
+// },0);
+
+
+
+console.log("A");
+setTimeout(() => {
+    console.log("B");
+}, 5000);
+
+console.log("C");
+
+setTimeout(() => {
+    console.log("D");
+}, 0);
 
 
 // console.log("Start");
