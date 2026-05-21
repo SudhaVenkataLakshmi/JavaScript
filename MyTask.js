@@ -92,26 +92,26 @@
 
 
 
-console.log("A");
-setTimeout(() => {
-    console.log("B");
-}, 5000);
-
-console.log("C");
-
-setTimeout(() => {
-    console.log("D");
-}, 0);
-
-
-// console.log("Start");
-// setTimeout(() => {
-//     console.log("A");
-// },2000);
+// console.log("A");
 // setTimeout(() => {
 //     console.log("B");
-// },0);
-// console.log("End");
+// }, 5000);
+
+// console.log("C");
+
+// setTimeout(() => {
+//     console.log("D");
+// }, 0);
+
+
+console.log("Start");
+setTimeout(() => {
+    console.log("Aloo");
+},3000);
+setTimeout(() => {
+    console.log("Booo");
+},0);
+console.log("End");
 
 // console.log("1");
 // setTimeout(() => {
