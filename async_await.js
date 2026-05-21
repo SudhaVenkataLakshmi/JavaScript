@@ -18,14 +18,14 @@
 // getData();
 
 
-// console.log("Start");
-// async function test() {
-//     console.log("Inside");
-//     await Promise.resolve();
-//     console.log("After await");
-// }
-// test();
-// console.log("End");
+console.log("Start");
+async function test() {
+    console.log("Inside");
+    await Promise.resolve();
+    console.log("After await function");
+}
+test();
+console.log("End");
 
 
 // fetchData()
@@ -38,26 +38,26 @@
 
 
 
-function fetchData(){
-    return new Promise((resolve, reject) => {
-        let success = false;
-        if(success){
-            resolve("Data Received");
-        }
-        else{
-            reject("Something is Wrong!");
-        }
-    });
-}
-async function  getData() {
-    try{
-        let result = await fetchData();
-        console.log(result);
-    }catch(error){
-        console.log("Error: ",error);
-    }
-}
-getData();
+// function fetchData(){
+//     return new Promise((resolve, reject) => {
+//         let success = false;
+//         if(success){
+//             resolve("Data Received");
+//         }
+//         else{
+//             reject("Something is Wrong!");
+//         }
+//     });
+// }
+// async function  getData() {
+//     try{
+//         let result = await fetchData();
+//         console.log(result);
+//     }catch(error){
+//         console.log("Error: ",error);
+//     }
+// }
+// getData();
 
 
 // async function test() {
